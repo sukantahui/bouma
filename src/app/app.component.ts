@@ -17,7 +17,7 @@ import * as AOS from 'aos';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit, OnDestroy{
-  title = 'Bouma';
+  title = 'Happy Birthday Bouma';
   active = 1;
   events: string[] = [];
   opened: boolean;
@@ -52,13 +52,12 @@ export class AppComponent implements OnInit, OnDestroy{
     this.canonicalService.setCanonicalURL();
     this.pageTitle.setTitle(this.title);
     this.metaService.addTags([
-      { name: 'keywords', content: 'Kfatafat online games' },
+      { name: 'keywords', content: 'Happy Birthday Bouma' },
       { name: 'robots', content: 'index, follow' },
-      { name: 'author', content: 'kfatafat kolkata' },
+      { name: 'author', content: 'Sukanta Hui' },
       { name: 'date', content: '2021-05-25', scheme: 'YYYY-MM-DD' },
       { charset: 'UTF-8' },
-      { description: 'kfatafat⭐ORIGNAL WEBSITE ⭐ Today All Bazi Tips KOLKATA Fatafat Result Live Update. Kolkata Fatafat Result . कोलकाता फटाफट RESULT, Prediction the result and win, try your luck..\n' +
-          '‎Kolkata Fatafat · ‎OLD Kolkata  kFatafat Result · ‎Kolkata fun lucky number · ‎Kolkata FF FUN result since 1960' }
+      { description: 'We love our beautiful lovable girl Ritaja' }
     ]);
 
 
