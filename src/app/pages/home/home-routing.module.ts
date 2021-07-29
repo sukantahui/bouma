@@ -19,16 +19,6 @@ const routes: Routes = [
                                   path: 'developer',
                                   loadChildren: () => import('./child-pages/developer/developer.module')
                                         .then(mod => mod.DeveloperModule)
-                               },
-                               {
-                                    path: 'banking',
-                                    loadChildren: () => import('./child-pages/banking/banking.module')
-                                        .then(mod => mod.BankingModule)
-                               },
-                               {
-                                    path: 'student',
-                                    loadChildren: () => import('./child-pages/student/student.module')
-                                        .then(mod => mod.StudentModule)
                                }
                             ]
                           },

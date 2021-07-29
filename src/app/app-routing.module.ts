@@ -29,21 +29,22 @@ const routes: Routes = [
 
   { path: 'features', loadChildren: () => import('./pages/home/features/features.module').then(m => m.FeaturesModule) },
 
+  // tslint:disable-next-line:max-line-length
   { path: 'PopularCourses', loadChildren: () => import('./pages/home/popular-courses/popular-courses.module').then(m => m.PopularCoursesModule) },
 
   { path: 'trainer', loadChildren: () => import('./pages/home/trainer/trainer.module').then(m => m.TrainerModule) },
 
   { path: 'developer', loadChildren: () => import('./pages/home/child-pages/developer/developer.module').then(m => m.DeveloperModule) },
 
+  // tslint:disable-next-line:max-line-length
   { path: 'MenuDeveloper', loadChildren: () => import('./pages/home/menu/menu-developer/menu-developer.module').then(m => m.MenuDeveloperModule) },
 
   { path: 'Admin', loadChildren: () => import('./pages/home/child-pages/admin/admin.module').then(m => m.AdminModule) },
 
   { path: 'banking', loadChildren: () => import('./pages/home/child-pages/banking/banking.module').then(m => m.BankingModule) },
 
+  // tslint:disable-next-line:max-line-length
   { path: 'LoadingSpinner', loadChildren: () => import('./shared/loading-spinner/loading-spinner.module').then(m => m.LoadingSpinnerModule) },
-
-  { path: 'Student', loadChildren: () => import('./pages/home/child-pages/student/student.module').then(m => m.StudentModule) },
 
   { path: 'MenuStudent', loadChildren: () => import('./pages/home/menu/menu-student/menu-student.module').then(m => m.MenuStudentModule) },
   // { path: 'auth', loadChildren: () => import('./pages/home/auth/auth.module').then(m => m.AuthModule) },
