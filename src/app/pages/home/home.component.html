@@ -15,7 +15,7 @@
         <app-menu></app-menu>
     </mat-drawer>
 
-    <a (click)="drawer.toggle()" class="menu-toggle rounded" [routerLink]=""><i class="bi bi-list" ></i></a>
+    <a *ngIf="false" (click)="drawer.toggle()" class="menu-toggle rounded" [routerLink]=""><i class="bi bi-list" ></i></a>
     <router-outlet></router-outlet>
     <app-top></app-top>
     <section id="test" class="pl-5" *ngIf="false">
@@ -90,7 +90,7 @@
     <!-- ======= Trainers Section ======= -->
     <app-trainer></app-trainer>
 
-    <section class="callout">
+    <section class="callout" *ngIf="false">
         <div class="ml-5 d-flex flex-row bd-highlight mb-3">
             <div class="col-4 p-2 bd-highlight">
                 <img class="img-fluid" src="assets/calendar/july_2021.jpg">
